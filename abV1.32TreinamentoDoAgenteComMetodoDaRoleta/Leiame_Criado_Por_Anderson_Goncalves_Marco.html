@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<p>Este agente faz o treinamento no jogo Angry Birds utilizando para isto algoritmos genéticos. </p>
+<p>Para executar o agente digite o comando <b>java -jar Absoftware -na 20</b>, isto vai executar o agente para o treinamento (via algoritmos genéticos) com o método da roleta.
+<p>Após rodar o agente o  arquivo texto <b>randomDataBase</b> é criado/modificado. Este arquivo grava os parâmetros e resultados das jogadas que o agente executa. Este arquivo é como um arquivo csv, só que usa o caractere <b>@</b> como delimitador de campo.</p>
+<p>Na primeira linha do arquivo existe  a seguinte string:</p>
+<div style="width:100%;overflow-x: auto;">
+<b>
+<pre>
+strength of bird 1@angle of bird 1@time to special of bird 1@strength of bird 2@angle of bird 2@time to special of bird 2@strength of bird 3@angle of bird 3@time to special of bird 3@strength of bird 4@angle of bird 4@time to special of bird 4@strength of bird 5@angle of bird 5@time to special of bird 5@score@id@generation@won
+</pre>
+</b>
+</div>
+<p>
+Cada linha do arquivo, com exceção da primeira, diz respeito a uma partida no Angry Birds. Os campos do tipo <b>strength</b> tem a força com que  que um pássaro foi lançado. Os campos do tipo <b>angle</b> tem o angulo de arremesso do passaro. E os campos <b>time to special</b>  tem o tempo, em millisegundos, que levou para se ativar a habilidade especial do passaro. O campo <b>id</b> é um número qualquer usado como identificador da partida, sua utilidade  é mais para fins de debug, ele não é uma chave primaria. O campo <b>score</b> tem a pontuação realizada pela jogada. O campo <b>generation</b> diz respeito a geração, do algoritmo genético, que pertence a partida. O campo <b>won</b>  diz se a partida foi vencidada, com valor <b>1</b>, ou não, com valor <b>0</b>. </p>
+Depois de terminar de criar o arquivo rode o agente com o comando <b>java -jar Absoftware -na 20</b>, isto era fazer o agente rodar o Angry Birds no nível 20. Este agente só funciona em níveis que tenham 5 pássaros.</p>
+<p>Se já existir um arquivo randomDataBase, antes de o agente ser executado, o agente vai utilizar os dados da partidas da ultima geração para criar a próxima geração com o qual vai jogar as primeiras 40 partidas.</p>
+</body>
+</html>

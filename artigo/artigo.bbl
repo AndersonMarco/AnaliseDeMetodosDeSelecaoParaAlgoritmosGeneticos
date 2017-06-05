@@ -1,0 +1,26 @@
+\begin{thebibliography}{1}
+
+\bibitem{Livro-De-IA}
+Almir~Olivette Artero.
+\newblock {\em Inteligeência Artificial Teória e Pratica}.
+\newblock Livraria da Física, 2009.
+
+\bibitem{primeiroAUsarAG}
+John~Henry Holland.
+\newblock {\em Adaptation in natural and artificial systems}.
+\newblock Univ. of Michigan Press, 1975.
+
+\bibitem{UFRGS-Apostila-GA}
+Diogo~C. Lucas.
+\newblock Algoritmos genéticos: uma introdução.
+\newblock
+  \url{http://www.inf.ufrgs.br/~alvares/INF01048IA/ApostilaAlgoritmosGeneticos.pdf},
+  03 2002.
+
+\bibitem{aiBirds}
+Prof.~Jochen Renz, Assoc. Prof.~Stephen Gould, XiaoYu~(Gary) Ge, and Peng
+  Zhang.
+\newblock Angry birds ai competition.
+\newblock \url{https://aibirds.org/}, 038.
+
+\end{thebibliography}

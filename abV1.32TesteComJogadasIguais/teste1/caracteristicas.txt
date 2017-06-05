@@ -1,0 +1,9 @@
+numero de elementos da populacao=10
+elemento gerado sempre aleatoriamente= elemento 9 de cada geracao
+melhor elemento da gerecao anterior sempre volta= ultimo elemento e o melhor elemento da geracao passada
+fator de mutacao para gene tempo para ativacao do especial=-150 a 150
+fator de mutacao para gene de angulo=-2 a 2
+fator de mutacao para gene de forca=-2 a 2
+provabilidade de mutacao para gene tempo para ativacao do especial=0.025
+provabilidade de mutacao para gene angulo=0.025
+provabilidade de mutacao para gene forca=0.025
